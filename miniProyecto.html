@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleM.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <style>
+        body{
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+        }
+        :root{
+            --white:#ffffff;
+            --gris:#2b2828;
+            --blue-sea:#1e203b;
+            --yellow:#c7ca23;
+            --purple:#6f2cff;
+            --ligth-purple:#efe9f9;
+            --red-hearth: #a50954;
+            --blue-hearth:#acd9b2;
+            --sm: 14px;
+            --md: 20px;
+            --lg:60px;
+        
+        
+        }
+    </style>
+    <title>PRIMER PROYECTO</title>
+
+</head>
+<body>
+    <div class="main">
+        <div class="brochure">
+            <h1 class="title">Situational Awareness in the WorkPlace</h1>
+            <p class="subtittle">Free product desing illustrations for starups and designers</p>
+            <p class="subtittle">High quality digital a sets than have been tested and reviewed by a team of </p>
+            <button class="primary-button" value="">
+                <span> Dowland brochure</span>
+            </button>
+        </div>
+        <div class="more-info">
+            <section class="icons-container">
+                <div class="card-container">
+                    <div class="card-icon"></div>
+                    <figure>
+                        <img src="" alt="./icons/bx-bxs-book-heart.svg"
+                         class="logo">
+                    </figure>
+                </div>
+                <div class="icon-text">
+                    <h2 class="icon-tittle">Research Materials</h2>
+                    <p class="icon-description">Guide for your decitions with our wheal</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-icon">
+                <figure>
+                    <img src="" alt="./icons/bx-bxs-book-heart.svg"
+                     class="logo">
+                </figure>
+            </div>
+            <div class="icon-text">
+                <h2 class="icon-tittle">Research Materials</h2>
+                <p class="icon-description">Guide for your decitions with our wheal</p>
+            </div>
+        </div>
+            </section>
+        </div>
+
+    </div>
+    
+    <script>
+        function agregarTarea() {
+            var tarea = document.getElementById("nuevaTarea").value; 
+            var nuevoItem = document.createElement("li");
+            nuevoItem.textContent = tarea;
+            document.getElementById("tarea-lista").appendChild(nuevoItem);
+            document.getElementById("nuevaTarea").value = ""; 
+        }
+    </script>
+</body>
+</html>
