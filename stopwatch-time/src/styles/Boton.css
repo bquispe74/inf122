@@ -1,0 +1,22 @@
+:root {
+    --green: rgb(35, 104, 35);
+    --red:rgb(136, 49, 49);
+    --yellow:rgb(0, 55, 255);        
+    --sm: 10px;
+}
+
+button {
+    padding: var(--sm);
+    outline: none;
+    border: none;
+    margin: 10px 2px;
+  }
+  button:nth-of-type(1) {
+    background: var(--green);
+  }
+  button:nth-of-type(2) {
+    background: var(--red);
+  }
+  button:nth-of-type(3) {
+    background: var(--yellow);
+  }
